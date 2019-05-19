@@ -1,0 +1,32 @@
+<!--/*
+    Template used for including CSS client libraries
+*/-->
+<template data-sly-template.css="${@ categories='Client Library categories', option = 'Async or Defer option'}">
+    <section data-sly-test="${request.getResourceResolver}"
+             data-sly-use.clientlib="${'/apps/granite/sightly/templates/graniteClientLib.html'}"
+             data-sly-call="${clientlib.include @ categories=categories, mode='css', option=option}"
+             data-sly-unwrap>
+    </section>
+</template>
+
+<!--/*
+    Template used for including JS client libraries
+*/-->
+<template data-sly-template.js="${@ categories='Client Library categories', option = 'Async or Defer option'}">
+    <section data-sly-test="${request.getResourceResolver}"
+             data-sly-use.clientlib="${'/apps/granite/sightly/templates/graniteClientLib.html'}"
+             data-sly-call="${clientlib.include @ categories=categories, mode='js', option=option}"
+             data-sly-unwrap>
+    </section>
+</template>
+
+<!--/*
+    Template used for including ALL client libraries
+*/-->
+<template data-sly-template.all="${@ categories='Client Library categories', option = 'Async or Defer option'}">
+    <section data-sly-test="${request.getResourceResolver}"
+             data-sly-use.clientlib="${'/apps/granite/sightly/templates/graniteClientLib.html'}"
+             data-sly-call="${clientlib.include @ categories=categories, option=option}"
+             data-sly-unwrap>
+    </section>
+</template>
