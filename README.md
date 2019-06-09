@@ -42,6 +42,6 @@ Or to deploy only the bundle to the author, run
 
 There are three levels of testing contained in the project:
 
-* unit test in core: this show-cases classic unit testing of the code contained in the bundle. To test, execute:
+unit test in core: this show-cases classic unit testing of the code contained in the bundle. To test, execute:
 
     mvn clean test
