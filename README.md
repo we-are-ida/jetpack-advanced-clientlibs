@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/ida-mediafoundry/jetpack-advanced-clientlibs.svg?branch=master)](https://travis-ci.org/ida-mediafoundry/jetpack-advanced-clientlibs)
 # Jetpack - Advanced Clientlibs
 (powered by iDA Mediafoundry)
 
