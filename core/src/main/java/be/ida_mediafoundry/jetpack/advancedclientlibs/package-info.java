@@ -14,6 +14,6 @@
  *  limitations under the License.
  */
 @Version("1.0")
-package be.ida-mediafoundry.jetpack.advancedclientlibs;
+package be.ida_mediafoundry.jetpack.advancedclientlibs;
 
 import org.osgi.annotation.versioning.Version;
