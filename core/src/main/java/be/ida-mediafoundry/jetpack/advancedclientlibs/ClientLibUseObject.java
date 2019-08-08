@@ -1,4 +1,4 @@
-package be.ida.jetpack.advancedclientlibs;
+package be.ida-mediafoundry.jetpack.advancedclientlibs;
 
 import com.adobe.cq.sightly.WCMUsePojo;
 import com.adobe.granite.ui.clientlibs.HtmlLibraryManager;
