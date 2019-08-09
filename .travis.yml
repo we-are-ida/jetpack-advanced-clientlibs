@@ -1,18 +1,14 @@
 language: java
 
-branches:
-  only:
-    - master
-    
-before_script:
-  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+jdk:
+  - openjdk8
 
 script:
   - mvn clean install cobertura:cobertura
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
-  
+
 notifications:
   email:
     on_failure: change

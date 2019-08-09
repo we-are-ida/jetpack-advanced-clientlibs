@@ -6,7 +6,7 @@
     <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
     <!-- ====================================================================== -->
     <parent>
-        <groupId>be.ida.jetpack</groupId>
+        <groupId>be.ida_mediafoundry.jetpack</groupId>
         <artifactId>advanced-clientlibs</artifactId>
         <version>1.0.0</version>
         <relativePath>../pom.xml</relativePath>
@@ -85,7 +85,7 @@
                     <group>Jetpack</group>
                     <embeddeds>
                         <embedded>
-                            <groupId>be.ida.jetpack</groupId>
+                            <groupId>be.ida_mediafoundry.jetpack</groupId>
                             <artifactId>advanced-clientlibs.core</artifactId>
                             <target>/apps/jetpack/advanced-clientlibs/install</target>
                         </embedded>
@@ -105,7 +105,7 @@
     <!-- ====================================================================== -->
     <dependencies>
         <dependency>
-            <groupId>be.ida.jetpack</groupId>
+            <groupId>be.ida_mediafoundry.jetpack</groupId>
             <artifactId>advanced-clientlibs.core</artifactId>
             <version>${project.version}</version>
         </dependency>
